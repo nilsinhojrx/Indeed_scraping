@@ -43,7 +43,7 @@ def get_page(site, driver, wait):
         )
     )    
 
-def scrape(driver, wait, base_url):
+def scrape(driver, base_url):
     response = Selector(text=driver.page_source)
     for vaga in response.xpath("//td[@class='resultContent css-1qwrrf0 eu4oa1w0']"):
         yield {
@@ -69,10 +69,9 @@ def main():
     data = []
     driver, wait = start_driver()
     get_page(url, driver, wait)
-    #search(driver, wait, text)
     # iniciando o scraping...
     while True:
-        page_data = scrape(driver, wait, base_url)
+        page_data = scrape(driver, base_url)
         data.extend(page_data)
         # pagination:
         try:
