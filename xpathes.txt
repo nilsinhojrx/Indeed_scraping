@@ -1,0 +1,5 @@
+# cargo: //td[@class='resultContent css-1qwrrf0 eu4oa1w0']/div/h2/a/span/text()
+# nome empresa: //td[@class='resultContent css-1qwrrf0 eu4oa1w0']/div[@class='company_location css-17fky0v e37uo190']//span[@data-testid='company-name']/text()
+# local: //div[@class='company_location css-17fky0v e37uo190']/div/div[@data-testid='text-location']
+# link para a vaga:
+
