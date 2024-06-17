@@ -10,4 +10,5 @@ Em seguida, pegue a URL após a pesquisa e coloque na função **main**. Dessa f
 Por fim, os dados coletados serão salvos em um arquivo CSV, Excel,JSON, segundo as funções de salvamento do pacote **Pandas**.
 *****
 Os pacotes utilizados foram: Pandas, Parsel, Logging, Selenium
+
 **Vídeo** : https://drive.google.com/file/d/1bhb2drIi_ANCVkU4u_m-bWwGfZcERZm8/view?usp=drive_link
